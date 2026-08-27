@@ -431,3 +431,57 @@ tr:hover td {
   background: #f1f5f9;
   color: #64748b;
 }
+.status-badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+
+.status-badge.created {
+  background: #eef2ff;
+  color: #4f46e5;
+}
+
+.status-badge.dispatched {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.status-badge.in_transit {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.status-badge.delivered {
+  background: #ecfdf5;
+  color: #059669;
+}
+.available-stock {
+  display: block;
+  margin-top: 8px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.form-group select:disabled,
+.form-group input:disabled {
+  background: #f1f5f9;
+  cursor: not-allowed;
+}
+
+.primary-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.status-badge.preparing {
+  background: #fff7ed;
+  color: #ea580c;
+}
+
+.status-badge.shipped {
+  background: #eff6ff;
+  color: #2563eb;
+}
