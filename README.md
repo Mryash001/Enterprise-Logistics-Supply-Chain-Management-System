@@ -4,6 +4,10 @@ A full-stack web application for managing products, warehouses, inventory, order
 
 The system uses React for the frontend, Spring Boot for the backend, and MySQL for data persistence.
 
+## Dashboard Preview
+
+![Supply Chain Dashboard](dashboard.png)
+
 ## Overview
 
 The Enterprise Logistics & Supply Chain Management System provides a centralized platform for managing day-to-day supply chain operations.
