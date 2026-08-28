@@ -49,7 +49,7 @@ function WarehouseForm({ warehouse, onSubmit, onCancel }) {
           name="warehouseCode"
           value={formData.warehouseCode}
           onChange={handleChange}
-          placeholder="WH002"
+          placeholder="Enter Warehouse Code (eg., WH001)"
           required
         />
       </div>
@@ -61,7 +61,7 @@ function WarehouseForm({ warehouse, onSubmit, onCancel }) {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder="North Warehouse"
+          placeholder="Enter Warehouse Name"
           required
         />
       </div>
@@ -73,7 +73,7 @@ function WarehouseForm({ warehouse, onSubmit, onCancel }) {
           name="location"
           value={formData.location}
           onChange={handleChange}
-          placeholder="Delhi"
+          placeholder="Enter WareHouse Location"
         />
       </div>
 
@@ -84,7 +84,7 @@ function WarehouseForm({ warehouse, onSubmit, onCancel }) {
           name="managerName"
           value={formData.managerName}
           onChange={handleChange}
-          placeholder="Rahul Sharma"
+          placeholder="Enter Manager Name"
         />
       </div>
 

@@ -79,7 +79,7 @@ function OrderForm({ products, warehouses, inventory, onSubmit }) {
           name="orderNumber"
           value={formData.orderNumber}
           onChange={handleChange}
-          placeholder="ORD005"
+          placeholder="Enter Order Number (e.g., ORD001)"
           required
         />
       </div>

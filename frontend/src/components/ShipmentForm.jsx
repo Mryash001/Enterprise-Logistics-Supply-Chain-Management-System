@@ -50,7 +50,7 @@ function ShipmentForm({ orders, shipments, onSubmit }) {
           name="trackingNumber"
           value={formData.trackingNumber}
           onChange={handleChange}
-          placeholder="TRK005"
+          placeholder="Enter Tracking Number (e.g., TRK005)"
           required
         />
       </div>

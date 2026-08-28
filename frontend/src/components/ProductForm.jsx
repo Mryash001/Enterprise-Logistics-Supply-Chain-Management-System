@@ -53,7 +53,7 @@ function ProductForm({ product, onSubmit, onCancel }) {
           name="productCode"
           value={formData.productCode}
           onChange={handleChange}
-          placeholder="P002"
+          placeholder="Enter product code (e.g., P002)"
           required
         />
       </div>
@@ -65,7 +65,7 @@ function ProductForm({ product, onSubmit, onCancel }) {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder="Mobile Phone"
+          placeholder="Enter product name"
           required
         />
       </div>
@@ -77,7 +77,7 @@ function ProductForm({ product, onSubmit, onCancel }) {
           name="description"
           value={formData.description}
           onChange={handleChange}
-          placeholder="Business Smartphone"
+          placeholder="Enter product description"
         />
       </div>
 
@@ -88,7 +88,7 @@ function ProductForm({ product, onSubmit, onCancel }) {
           name="price"
           value={formData.price}
           onChange={handleChange}
-          placeholder="50000"
+          placeholder="Enter price (e.g., 49999.00)"
           min="0"
           step="0.01"
           required
